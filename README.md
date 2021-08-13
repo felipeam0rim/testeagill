@@ -8,19 +8,17 @@
 <p> O código desenvolvido é em PHP utilizando o framework Laravel, utilizando o padrão MVC, onde foi consumida a api do github para a criação de um web app que pesquisa usuários do github pelo nome e mostra um perfil de visualização com algumas informações do usuário e sua lista de repositórios com seus devidos links.</p>
 <hr width = 100%>
 <h3>Instruções:</h3>
-```
-git clone https://github.com/felipeam0rim/testeagill projetoteste
-cd projetoteste
-composer install 
-cp .env.example .env
-php artisan key:generate
-php artisan server
-```
-<p>
-Os comandos fazem as seguites ações, respectivamente.
-- Clona o projeto na pasta projetoteste
-- Entra na pasta projetoteste
-- Instala todas as dependências do projeto
-- Copia o .env.example e cola como .env
-- Gera uma chave do laravel
-- Roda o projeto</p>
+```git clone https://github.com/felipeam0rim/testeagill projetoteste```
+```cd projetoteste```
+```composer install```
+```cp .env.example .env```
+```php artisan key:generate```
+```php artisan server```
+
+<p>Os comandos fazem as seguites ações, respectivamente.</p>
+<p>- Clona o projeto na pasta projetoteste</p>
+<p>- Entra na pasta projetoteste</p>
+<p>- Instala todas as dependências do projeto</p>
+<p>- Copia o .env.example e cola como .env</p>
+<p>- Gera uma chave do laravel</p>
+<p>- Roda o projeto</p>
